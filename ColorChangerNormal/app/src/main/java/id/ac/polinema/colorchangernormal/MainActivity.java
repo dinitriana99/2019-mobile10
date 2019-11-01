@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View view) {
 				int color = generateRandomColor();
-				rootView.setBackgroundColor(color);
+				colorViewModel.setColor(color);
 			}
 		});
 	}
